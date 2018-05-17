@@ -1,0 +1,1 @@
+!function(){function e(){document.getElementsByTagName(a)[0].classList.add(o)}var t="styleTheme",l="alt",a="html";if("undefined"==typeof localStorage){var o=l;e()}else null!=localStorage.getItem(t)?(o=localStorage.styleTheme,e()):null===localStorage.getItem(t)&&(localStorage.setItem(t,l),o=localStorage.getItem(t),e())}();
